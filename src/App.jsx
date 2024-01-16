@@ -1,6 +1,7 @@
 import Header from './Header';
 import MyProfile from './MyProfile';
 import About from './About';
+import Experience from './Experience';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <MyProfile />
       <About />
+      <Experience />
     </>
   );
 }

@@ -42,7 +42,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <a href="">
+      <a href="#experience">
         <KeyboardDoubleArrowDownIcon sx={{ fontSize: 50 }} className="arrow" />
       </a>
     </section>

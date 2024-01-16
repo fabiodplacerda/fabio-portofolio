@@ -271,3 +271,36 @@ h2 {
   text-align: center;
   border: #797979 solid 0.15rem;
 }
+
+/* EXPERIENCE */
+
+#experience {
+  position: relative;
+}
+
+.experience-sub-title {
+  color: #797979;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 14rem;
+  justify-content: space-around;
+}
