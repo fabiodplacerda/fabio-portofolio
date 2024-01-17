@@ -3,6 +3,7 @@ import MyProfile from './MyProfile';
 import About from './About';
 import Experience from './Experience';
 import Projects from './projects';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
+      <Contact />
     </>
   );
 }
