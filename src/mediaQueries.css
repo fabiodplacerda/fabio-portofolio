@@ -13,13 +13,10 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  /* #profile,
-  #about,
-  #experience,
-  #projects {
-    height: 80vh;
-    margin-bottom: 20rem;
-  } */
+  html {
+    scroll-snap-type: none;
+  }
+
   #profile {
     display: block;
   }

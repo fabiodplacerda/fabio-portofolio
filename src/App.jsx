@@ -11,6 +11,9 @@ import { loadSlim } from '@tsparticles/slim';
 
 const App = () => {
   const [init, setInit] = useState(false);
+  const [display, setDisplay] = useState(
+    window.innerWidth <= 1200 ? 'mobile' : 'desktop'
+  );
 
   useEffect(() => {
     initParticlesEngine(async engine => {
@@ -18,6 +21,23 @@ const App = () => {
     }).then(() => {
       setInit(true);
     });
+
+    const handleResize = () => {
+      const windowWidth = window.innerWidth;
+
+      if (windowWidth <= 1200) {
+        setDisplay('mobile');
+      } else {
+        setDisplay('desktop');
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize();
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   const particlesLoaded = container => {
@@ -78,7 +98,7 @@ const App = () => {
           density: {
             enable: true
           },
-          value: 100
+          value: 120
         },
         opacity: {
           value: 0.2
@@ -95,7 +115,7 @@ const App = () => {
     []
   );
 
-  if (init) {
+  if (init && display === 'desktop') {
     return (
       <>
         <Particles
@@ -103,7 +123,7 @@ const App = () => {
           particlesLoaded={particlesLoaded}
           options={options}
         />
-        <Header />
+        <Header display={display} />
         <MyProfile />
         <About />
         <Experience />
@@ -114,7 +134,17 @@ const App = () => {
     );
   }
 
-  return <></>;
+  return (
+    <>
+      <Header display={display} />
+      <MyProfile />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      <Footer />
+    </>
+  );
 };
 
 export default App;
