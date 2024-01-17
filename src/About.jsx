@@ -1,6 +1,7 @@
 import SchoolIcon from '@mui/icons-material/School';
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import WorkIcon from '@mui/icons-material/Work';
+import aboutPic from './assets/about-pic.png';
 
 const About = () => {
   return (
@@ -8,11 +9,7 @@ const About = () => {
       <p className="p1">Get to know me</p>
       <h2>About me</h2>
       <div className="about-main-container">
-        <img
-          src="profile-pic.png"
-          alt="profile picture"
-          className="about-pic"
-        />
+        <img src={aboutPic} alt="profile picture" className="about-pic" />
         <div className="details-main-container">
           <div className="about-inner-containers">
             <div className="details-inner-container">
