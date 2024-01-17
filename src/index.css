@@ -255,6 +255,11 @@ h2 {
   width: 28rem;
 }
 
+.text-container {
+  background-color: #f8f8f8;
+  text-align: justify;
+}
+
 .about-main-container {
   display: flex;
   margin-top: 5rem;

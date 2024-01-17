@@ -28,13 +28,14 @@ const About = () => {
           </div>
           <div className="text-container">
             <p>
-              I am a Highly Resilient, enthusiastic, and logically driven
-              programmer looking to kick-start my career in Software
-              Development. I am a results-driven professional and decided to
-              pursue a role as a Software engineer because I'm fascinated by the
-              tech industry and what I could potentially do. Recently embarked
-              on a Full-stack Web Development Bootcamp gaining proficiency in
-              Javascript, Test-driven development, PSQL, and React
+              Hey there! I'm a determined and enthusiastic programmer ready to
+              dive into the world of Software Development. I'm all about
+              delivering results and have set my sights on becoming a Software
+              Engineer because the tech industry just blows my mind with its
+              endless possibilities. Recently, I wrapped up a Full-stack Web
+              Development Bootcamp, where I got the hang of Javascript,
+              Test-driven development, PSQL, and React. Really excited about
+              what's ahead!
             </p>
           </div>
         </div>
