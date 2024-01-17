@@ -18,7 +18,8 @@ body {
 /* DESKTOP NAV */
 
 header,
-#desktop-nav nav {
+#desktop-nav nav,
+footer nav {
   display: flex;
 }
 
@@ -37,7 +38,8 @@ header {
   height: 17vh;
 }
 
-#desktop-nav nav {
+#desktop-nav nav,
+footer nav {
   gap: 2rem;
   font-size: 1.5rem;
 }
@@ -347,7 +349,7 @@ article {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 80vh;
 }
 
 .contact-main-container {
@@ -370,4 +372,22 @@ article {
 
 .contact-info-container p {
   font-size: larger;
+}
+
+/* FOOTER */
+
+footer {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 2.5rem;
+  text-align: center;
+  color: #797979;
 }
