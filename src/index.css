@@ -7,6 +7,7 @@
   list-style-type: none;
   text-decoration: none;
   scroll-behavior: smooth;
+  z-index: 2;
 }
 
 body {
@@ -86,7 +87,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: #fff;
+  background-color: #f8f8f8;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -207,7 +208,7 @@ h2 {
 .btn-resume:hover,
 .btn-contact {
   background-color: #797979;
-  color: white;
+  color: #f8f8f8;
 }
 
 .btn-contact:hover {
@@ -215,11 +216,11 @@ h2 {
 }
 
 .btn-resume {
-  background: none;
+  background: #f8f8f8;
 }
 
 .btn-resume:hover {
-  border: #fff 0.2rem solid;
+  border: #f8f8f8 0.2rem solid;
 }
 
 /* ABOUT SECTION */
@@ -269,7 +270,7 @@ h2 {
 .details-inner-container {
   padding: 1.5rem;
   flex: 1;
-  background-color: #fff;
+  background-color: #f8f8f8;
   border-radius: 1.5rem;
   text-align: center;
   border: #797979 solid 0.15rem;
@@ -308,6 +309,10 @@ article {
   justify-content: space-around;
 }
 
+article p {
+  color: #797979;
+}
+
 /* PROJECTS SECTION */
 
 #projects {
@@ -322,7 +327,7 @@ article {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  background: #f8f8f8;
 }
 
 .project-img {
@@ -357,7 +362,7 @@ article {
   justify-content: center;
   border-radius: 2rem;
   border: #797979 0.1rem solid;
-  background-color: #fff;
+  background-color: #f8f8f8;
   margin: 2rem auto;
   padding: 0.5rem;
 }

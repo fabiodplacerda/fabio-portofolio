@@ -31,10 +31,10 @@ const MyProfile = () => {
         </div>
         <div className="socials-container">
           <a href="https://www.linkedin.com/in/fabiolacerda96/" target="_blank">
-            <LinkedInIcon sx={{ fontSize: 45, color: 'rgb(121, 121, 121)' }} />
+            <LinkedInIcon sx={{ fontSize: 45 }} />
           </a>
           <a href="https://github.com/fabiodplacerda" target="_blank">
-            <GitHubIcon sx={{ fontSize: 45, color: 'rgb(121, 121, 121)' }} />
+            <GitHubIcon sx={{ fontSize: 45 }} />
           </a>
         </div>
       </div>
