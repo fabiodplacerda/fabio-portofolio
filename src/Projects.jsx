@@ -33,7 +33,7 @@ const Projects = () => {
                 GitHub
               </button>
               <button
-                className="btn-resume project-btn"
+                className="btn-resume project-btn hosted-btn"
                 onClick={() => {
                   window.open('https://resource-rivals.netlify.app/', '_blank');
                 }}
@@ -63,7 +63,7 @@ const Projects = () => {
                 GitHub
               </button>
               <button
-                className="btn-resume project-btn"
+                className="btn-resume project-btn hosted-btn"
                 onClick={() => {
                   window.open('https://fabio-nc-news.netlify.app/', '_blank');
                 }}
