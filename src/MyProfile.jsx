@@ -10,7 +10,7 @@ const MyProfile = () => {
       <div className="profile-text">
         <p className="p1">Hello Word!</p>
         <h2>I'm Fabio Lacerda</h2>
-        <p className="p2">Frontend Developer</p>
+        <p className="p2">Junior Software Developer</p>
         <div className="btn-container">
           <button
             className="btn-resume"

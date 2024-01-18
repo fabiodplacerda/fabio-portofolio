@@ -22,7 +22,7 @@ const Experience = () => {
                 <VerifiedIcon />
                 <div>
                   <h3>CSS</h3>
-                  <p>Experienced</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -50,7 +50,7 @@ const Experience = () => {
                 <VerifiedIcon />
                 <div>
                   <h3>Material UI</h3>
-                  <p>Intermediate</p>
+                  <p>Basic</p>
                 </div>
               </article>
             </div>
@@ -62,7 +62,7 @@ const Experience = () => {
                 <VerifiedIcon />
                 <div>
                   <h3>PostgreSQL</h3>
-                  <p>Experienced</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
