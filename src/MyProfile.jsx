@@ -15,7 +15,7 @@ const MyProfile = () => {
           <button
             className="btn-resume"
             onClick={() => {
-              window.open('FabioCV-v2.pdf', '_blank');
+              window.open('FabioCV.pdf', '_blank');
             }}
           >
             My resume
